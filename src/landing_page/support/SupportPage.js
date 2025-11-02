@@ -1,15 +1,14 @@
 import React from 'react';
 import Hero from './Hero';
-import Team from './Team';
+import CreateTicket from './CreateTicket';
 
-
-function AboutPage() {
+function SupportPage() {
     return ( 
         <>
         <Hero/>
-        <Team/>
+        <CreateTicket/>
         </>
      );
 }
 
-export default AboutPage;
+export default SupportPage;
