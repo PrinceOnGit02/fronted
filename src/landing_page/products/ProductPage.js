@@ -17,7 +17,12 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
-      <RightSection/>
+      <RightSection
+        imageURL="media/image/console.png"
+        productName="Console"
+        ProductDesription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
+        LearnMore=""
+      />
       <LeftSection
         imageURL="media/image/coin.png"
         productName="Coin"
@@ -27,7 +32,12 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
-        <RightSection />
+      <RightSection
+        imageURL="media/image/kiteconnect.png"
+        productName="Kite Connect API"
+        ProductDesription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go"
+        LearnMore=""
+      />
       <LeftSection
         imageURL="media/image/varsity.png"
         productName="Varsity Mobile"
@@ -37,6 +47,10 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
+      <p className="text-center mt-5 mb-5">
+        Want to know more about our technology stack? Check out the Zerodha.tech
+        blog.
+      </p>
       <Universe />
     </>
   );
